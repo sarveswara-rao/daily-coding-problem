@@ -18,7 +18,7 @@ if flag == 1:
     print(f'"{s}" is not a palindrome')
 else:
     print(f'"{s}" is a palindrome')
-    
+
 #======================================================#
 # Method two
 print('Using Method 2: ', end = ' ')
