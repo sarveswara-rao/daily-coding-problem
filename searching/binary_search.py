@@ -22,6 +22,6 @@ while l < h:
     m = (l+h)//2
 
 if flag:
-    print('Element is found')
+    print(f'{n} is present in the give list')
 else:
-    print('Element is not found')
+    print(f'{n} is not present in the given list')
