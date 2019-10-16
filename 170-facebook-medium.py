@@ -22,8 +22,8 @@ for i in range(len(start)):
 		break
 	c = list(end)[-(i+1)]
 	new_word[-(i+1)] = c
-	lst.append(''.join(new_word))
 	if "".join(new_word) in d:
+		lst.append(''.join(new_word))
 		continue
 	else:
 		flag = False
