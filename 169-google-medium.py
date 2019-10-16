@@ -11,8 +11,9 @@ class Node:
 		self.next = nxt
 
 
-def sort(head):
-	if not head:
+def merge_sort(head):
+	# base condition if two r no elements in the list
+	if head == None:
 		return head
 
 	k=1
